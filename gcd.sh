@@ -1,7 +1,5 @@
 #!/bin/bash
 
-read -p "二つの自然数を入手してくだい：" a b
-
 function gcd ()
  {
    num1=$1
@@ -14,5 +12,5 @@ function gcd ()
      num2=$r
    done
  }
- gcd a b
- echo " $a and $b の最大公約数 = $num1"
+ gcd 27 98
+ echo " $27 and $98 の最大公約数 = $num1"
